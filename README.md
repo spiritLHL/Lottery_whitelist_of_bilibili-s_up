@@ -5,7 +5,7 @@
 `lxml`   
 `bs4`   
 用法参照注释    
-需要安装火狐浏览器，版本如下    
+需要安装火狐浏览器，版本如下(84.04.1 64位)    
 ![https://pic.liesio.com/2021/01/04/3500261c3ad51.png](https://pic.liesio.com/2021/01/04/3500261c3ad51.png)   
 对应驱动geckodriver.exe放在C盘根目录即可   
 个人脚本，不做维护    
