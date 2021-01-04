@@ -65,7 +65,7 @@ print("存储完毕")
 '''
 with open("白名单.txt", "r",encoding='utf-8') as f:  # 打开文件
     data = f.read()  # 读取文件
-    list_name = data.split(',')
+    list_name = data.split(',\n')
     list_name = [i for i in list_name if i != '']
     print(list_name)
 headers = {
