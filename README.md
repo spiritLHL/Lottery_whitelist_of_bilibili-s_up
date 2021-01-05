@@ -1,5 +1,5 @@
 # Lottery_whitelist_of_bilibili-s_up
-# 对私信有自动回复的up进行爬虫，并批量查询B站up名字对应的uid。
+### 对私信有自动回复的up进行爬虫，并批量查询B站up名字对应的uid    
 取消关注.py内含查询代码，需要先行安装第三方库如下    
 `selenium`   
 `requests`   
