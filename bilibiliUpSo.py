@@ -17,8 +17,8 @@ import linecache
 if __name__ == "__main__":
     UpPath = g.enterbox(msg="请输入UP主名称文件路径", title="UID捕捉")
     print(UpPath)
-    Cookie = g.enterbox(msg="请输入你的cookie", title="UID捕捉")
-    timeS = g.enterbox(msg="请输入每10人间断秒数", title="UID捕捉")
+    Cookie = g.enterbox(msg="请输入你的cookie", title="UID捕捉") #这里使用的B站cookie只需要复制SSEDATA那一栏
+    timeS = g.enterbox(msg="请输入每10人间断秒数", title="UID捕捉") #建议1秒
     UpPath = open(UpPath, "r",encoding='utf-8').read()
     UpPath = UpPath.replace(' ', '')
     print(UpPath)
