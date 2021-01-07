@@ -59,7 +59,7 @@ if __name__ == "__main__":
                     # sheet.cell(count, 1, arr['title']) 传入的3个值 行数 列数 值 如果单元格为空则创建写入这些内容
                     # 即代表第一行横着依次写入分P的CID
                     h = h + 1
-                    User = User + "UID："+str(Mid)+"\n"
+                    User = User + str(Mid) + ','
                 else:
                     i = i + 1
             c = c + 1
