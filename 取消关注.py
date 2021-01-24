@@ -13,9 +13,9 @@ time.sleep(15)
 comment = input('True or False:')
 while comment:
     if comment == False:
-        pass
-    else:
         comment = input('True or False:')
+    else:
+        break
 #driver.minimize_window()
 #消息页面操作
 driver.get('https://message.bilibili.com/#/whisper')
